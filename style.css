@@ -17,6 +17,9 @@ body{
 form{
     margin: 100px auto 30px;
     width: 90%;
+}
+
+form div {
     display: flex;
     align-items: center;
 }
@@ -41,6 +44,12 @@ button{
     cursor: pointer;
     border: none;
     background-color: var(--backgroundColor);
+}
+
+#status{
+    font-size: 0.9em;
+    color: red;
+    margin-top: 10px;
 }
 
 .fa{
